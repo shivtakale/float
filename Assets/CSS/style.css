@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+.row{
+	clear: both;
+	display: table;
+	width: 100%;
+}
+.box{
+	height:300px;
+	width: 300px;
+	background-color:rgb(145, 220, 17);
+	float: right;
+}
+.info{
+	clear: right;
+}
+.demo{
+	height: 250px;
+	background-color:rgb(177, 64, 64);
+}
+.col6{
+	width: calc(100% * 6 /12);
+	float: left;
+	padding: 0 15px;
+}
+.col3{
+	float:left ;
+	padding: 0 15px;
+	width: calc(100% * 3 /12);
+}
+.COL4{
+	float: left;
+	padding: 0 10px;
+	width: calc(100 * 4 / 12);
+}
